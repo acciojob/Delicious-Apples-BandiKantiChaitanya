@@ -72,7 +72,7 @@ body{
     margin-bottom: 10px;
     font-size: 18px;
 }
-.variant li img {
+.variant > ul > li > img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -80,7 +80,7 @@ body{
     border: 2px solid transparent;
 }
 
-.variant li img:hover {
+.variant > ul > li > img:hover {
     border-color: #4caf50;
 }
 
@@ -96,4 +96,12 @@ body{
 .variant ul{
 	display:flex;
 	list-style-type:none;
+}
+.description button{
+	margin-top:20px;
+	padding:20px;
+	background-color:orange;
+	color:white;
+	font-size:14px;
+	font-style:bold;
 }
